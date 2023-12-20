@@ -1,0 +1,197 @@
+  @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&family=Frank+Ruhl+Libre&family=Fraunces:opsz@9..144&family=Poppins&family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+:root{
+    --primary:#233354;
+    --secondary:#1ab4d6;
+    --hover:#18243c;
+    --active:#647088;
+    --disable:#e0e0e0;
+    --lightgrey:#d3d6dd;
+    --grey:#a7adbb;
+}
+.container{
+    padding: 20px;
+    display:  flex;
+    justify-content: space-around;
+    align-items: center;
+}
+p{
+    color: var(--grey);
+}
+label{
+    font-size: 15px;
+}
+
+.container>div>p{
+    margin-top: -20px;
+}
+.color-button>div{
+    margin-top: 25px;
+}
+
+.button{
+    all: unset;
+width: 190px;
+height: 20px;
+color: white;
+font-size: 15px;
+padding-left: 75px;
+border-radius: 8px;
+padding-top: 15px;
+padding-bottom: 15px;
+font-weight: 600;
+}
+.primary>input{
+    background-color: var(--primary);
+}
+.secondary>input{
+    background-color: var(--secondary)
+}
+.size-button>div{
+    margin-top: 20px;
+}
+.small>input{
+    width: 160px;
+height: 15px;
+    background-color: var(--primary);
+}
+.normal>input{
+    width: 190px;
+height: 20px;
+background-color: var(--primary)
+}
+.medium>input{
+
+    width: 220px;
+    height: 25px;
+    background-color: var(--primary)
+}
+.large>input{
+    width: 250px;
+    height: 30px;
+    background-color: var(--primary)
+}
+.full-width-button>div{
+
+    margin-top: 20px;
+}
+.button-2{
+    all: unset;
+width: 220px;
+height: 20px;
+color: white;
+font-size: 15px;
+padding-left: 75px;
+border-radius: 8px;
+padding-top: 15px;
+padding-bottom: 15px;
+font-weight: 600;
+}
+.default>input{
+    background-color: var(--primary)
+}
+.hover>input{
+    background-color: var(--hover)
+}
+.active>input{
+    background-color: var(--active)
+}
+.disabled>input{
+    background-color: var(--disable)
+}
+.container-2{
+    padding: 20px;
+    display:  flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.normal>p{
+   margin-left: 60px;
+}
+.normal>div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.outline>div{
+    margin-top: 20px;
+}
+
+.outline-1{
+    border: 2px solid black; 
+    color: black;
+    font-weight: 600;
+}
+.outline-2{
+    background-color: var(--lightgrey);
+    border: 2px solid black;
+    color: black;
+    font-weight: 600;
+
+}
+.outline-3{
+    border: 2px solid black;
+background-color: var(--grey); 
+color: black;
+font-weight: 600;
+}
+.outline-4{
+    color: var(--grey);
+    border: 2px solid black;
+}
+.icon-button>div{
+margin-top: 20px;
+width: 280px;
+height: 55px;
+display: flex;
+justify-content: center;
+gap: 20px;
+align-items: center;
+color: white;
+font-size: 15px;
+border-radius: 8px;
+padding-top: 15px;
+padding-bottom: 15px;
+font-weight: 600;
+}
+.icon-button>div>button{
+    all: unset;
+}
+.icon-button>.default{
+    background-color: var(--primary)
+}
+.icon-button>.hover{
+    background-color: var(--hover)
+}
+.icon-button>.active{
+    background-color: var(--active)
+}
+.icon-button>.disabled{
+    background-color: var(--disable)
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.icon>div{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--primary)
+}
+.icon>div>img{
+    margin-top: 15px;
+    margin-left: 17px;
+
+}
